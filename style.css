@@ -1,0 +1,40 @@
+:root {
+  --brown-900: #2e2618;
+  --brown-700: #403727;
+  --brown-600: #837866;
+  --brown-text: #9c8e72;
+  --offwhite: #dad6cf;
+  --legend-text: #fefefe;
+  --test-text: #cbba98;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--offwhite);
+}
+/* .test {
+  background: url(/assets/panel-top.jpg) center no-repeat;
+  background-size: cover;
+} */
+
+.header-styles {
+  background-color: var(--brown-700);
+}
+
+.adjust-logo {
+  width: 150px;
+  height: 100px;
+}
+
+.legend-logo :first-child {
+  color: var(--legend-text);
+}
+
+.legend-logo :nth-last-child(1) {
+  color: var(--test-text);
+}
